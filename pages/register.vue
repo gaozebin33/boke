@@ -102,7 +102,10 @@
                                 }
                             })
                         }else{
-                            this.$message.error(res.message)
+                            this.$message({
+                                type:'error',
+                                message: res.message
+                            })
                         }
                     }else{
                         console.log('校验失败')
