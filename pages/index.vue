@@ -1,72 +1,36 @@
 <template>
   <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        front
-      </h1>
-      <h2 class="subtitle">
-        My slick Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+      <img src="../assets/img/wife.jpg" class="avatar">
+      <h1>亲爱的，别生气啦，高高知道错了</h1>
+      <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591702773417&di=4a2090736965eadffbdda9a305b63c7f&imgtype=0&src=http%3A%2F%2Fimg0.imgtn.bdimg.com%2Fit%2Fu%3D1169771970%2C811882309%26fm%3D214%26gp%3D0.jpg" class="gif">
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
 export default {
-  components: {
-    Logo
-  }
+  head(){
+      return {
+          title: '首页'
+      }
+  },
 }
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+<style lang='scss' scope>
+.container{
+    text-align: center;
+    .avatar{
+        // display: block;
+        width: 300px;
+        // margin: 50px auto;
+        border-radius: 50%;
+    }
+    h1{
+        margin: 20px;
+    }
+    .gif{
+        width: 200px;
+    }
 }
 </style>
