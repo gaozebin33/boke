@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-      <img src="../assets/img/wife.jpg" class="avatar">
-      <h1>亲爱的，别生气啦，高高知道错了</h1>
-      <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1591702773417&di=4a2090736965eadffbdda9a305b63c7f&imgtype=0&src=http%3A%2F%2Fimg0.imgtn.bdimg.com%2Fit%2Fu%3D1169771970%2C811882309%26fm%3D214%26gp%3D0.jpg" class="gif">
+      <!-- <img src="../assets/img/wife.jpg" class="avatar"> -->
+      <h1>各位大哥好！！！</h1>
+      <img src="http://5b0988e595225.cdn.sohucs.com/q_mini,c_zoom,w_640/images/20171122/a6ac310122b646918112abf3bdf71188.gif" class="gif">
   </div>
 </template>
 
@@ -30,7 +30,7 @@ export default {
         margin: 20px;
     }
     .gif{
-        width: 200px;
+        width: 400px;
     }
 }
 </style>
